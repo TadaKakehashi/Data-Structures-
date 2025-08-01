@@ -30,7 +30,7 @@ Each node stores:
 - **Data**: The actual value or information
 - **Next**: A reference (pointer) to the **next node** in the list
 
-![Node]([https://raw.githubusercontent.com/TadaKakehashi/Data-Structures-/653a8a05d0d25938ad1c5a887fcf519959025fe6/LinkedList/Images/Node.png](https://github.com/TadaKakehashi/Data-Structures-/blob/653a8a05d0d25938ad1c5a887fcf519959025fe6/LinkedList/Images/Node.png))
+![image alt]([https://raw.githubusercontent.com/TadaKakehashi/Data-Structures-/653a8a05d0d25938ad1c5a887fcf519959025fe6/LinkedList/Images/Node.png](https://github.com/TadaKakehashi/Data-Structures-/blob/653a8a05d0d25938ad1c5a887fcf519959025fe6/LinkedList/Images/Node.png))
 
 ---
 
@@ -46,5 +46,5 @@ The list starts from a special node called the **head**, and ends when a node’
 ---
 
 
-![Singly Linked List]([https://raw.githubusercontent.com/TadaKakehashi/Data-Structures-/26637454968bc4c71e1704eb9f3d8114d626e98d/LinkedList/Images/LinkedList1.png](https://github.com/TadaKakehashi/Data-Structures-/blob/8b86b1e34592d4d75a9867166e2aba4d891d9f0c/LinkedList/Images/LinkedList1.png))
+![image alt]([https://raw.githubusercontent.com/TadaKakehashi/Data-Structures-/26637454968bc4c71e1704eb9f3d8114d626e98d/LinkedList/Images/LinkedList1.png](https://github.com/TadaKakehashi/Data-Structures-/blob/8b86b1e34592d4d75a9867166e2aba4d891d9f0c/LinkedList/Images/LinkedList1.png))
 
