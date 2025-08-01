@@ -57,6 +57,7 @@ The list starts from a special node called the **head**, and ends when a node’
 ---
 
 # Doubly Linked List
+
 A Doubly Linked List is a linear data structure where each node has three components:
  - **Data**
  - **Pointer** to the next node
@@ -65,20 +66,11 @@ This Structure allows traversal both in forward as well as backward direction, m
 
 ![Doubly List Node](Images/DoublyNode.png)
 
-
----
-
-## Key Feature
-
 This structure allows **traversal in both directions**:
 - **Forward** (using `next`)
 - **Backward** (using `prev`)
 
 This makes it more flexible than a **Singly Linked List**, which only supports forward traversal.
-
----
-
-## Node Structure (Java Example)
 
 ```java
 class Node {
@@ -94,4 +86,39 @@ class Node {
 }
 ```
 ![Doubly LinkedList](Images/DoublyLinkedList.png)
- 
+
+---
+
+## Circular Linked List
+
+A **Circular Linked List** is a variation of a linked list where the **last node does not point to `null`**.  
+Instead, it points back to the **head (first node)**, forming a **circle or loop**.
+
+- No node points to `null`
+- The list can be **traversed infinitely** if not handled carefully
+- You can start traversal from **any node** and still visit every element
+
+Types of Circular Linked Lists:->
+1. **Singly Circular Linked List**
+   - Each node has:
+     - **Data**
+     - A pointer to the **next** node
+   - The last node's `next` points to the **head**
+
+2. **Doubly Circular Linked List**
+   - Each node has:
+     - **Data**
+     - A pointer to the **next** node
+     - A pointer to the **previous** node
+   - The last node's `next` → head
+   - The head's `prev` → last node
+
+Use Cases->
+- Round-robin scheduling
+- Repeating playlists or slideshows
+- Circular queues
+- Token ring networks
+
+![Circular Linked List](Images/CircularLinkedList.png)
+
+---
