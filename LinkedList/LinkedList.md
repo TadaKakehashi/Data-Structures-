@@ -30,7 +30,7 @@ Each node stores:
 - **Data**: The actual value or information
 - **Next**: A reference (pointer) to the **next node** in the list
 
-![image alt]([https://raw.githubusercontent.com/TadaKakehashi/Data-Structures-/653a8a05d0d25938ad1c5a887fcf519959025fe6/LinkedList/Images/Node.png](https://github.com/TadaKakehashi/Data-Structures-/blob/653a8a05d0d25938ad1c5a887fcf519959025fe6/LinkedList/Images/Node.png))
+![Node](Images/Node.png)
 
 ---
 
