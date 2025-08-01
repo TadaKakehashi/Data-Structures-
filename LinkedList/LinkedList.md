@@ -46,3 +46,13 @@ The list starts from a special node called the **head**, and ends when a node’
 
 ---
 
+# Doubly Linked List
+A Doubly Linked List is a linear data structure where each node has three components:
+ - **Data**
+ - **Pointer** to the next node
+ - **Pointer** to the Previous Node
+This Structure allows traversal both in forward as well as backward direction, making it flexible than singly linked list.
+
+![Doubly List Node](Images/DoublyNode.png)
+
+ 
