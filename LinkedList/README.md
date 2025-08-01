@@ -55,4 +55,33 @@ This Structure allows traversal both in forward as well as backward direction, m
 
 ![Doubly List Node](Images/DoublyNode.png)
 
+
+---
+
+## Key Feature
+
+This structure allows **traversal in both directions**:
+- **Forward** (using `next`)
+- **Backward** (using `prev`)
+
+This makes it more flexible than a **Singly Linked List**, which only supports forward traversal.
+
+---
+
+## Node Structure (Java Example)
+
+```java
+class Node {
+    int data;
+    Node next;
+    Node prev;
+
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+        this.prev = null;
+    }
+}
+```
+![Doubly LinkedList](Images/DoublyLinkedList.png)
  
