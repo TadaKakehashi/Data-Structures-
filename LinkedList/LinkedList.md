@@ -46,5 +46,5 @@ The list starts from a special node called the **head**, and ends when a node’
 ---
 
 
-![LinkedList](LinkedList1.png)
+![LinkedList](Images/LinkedList1.png)
 
