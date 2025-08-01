@@ -42,9 +42,7 @@ A **Singly Linked List** is a linear data structure where each node contains:
 - A **pointer to the next node**
 
 The list starts from a special node called the **head**, and ends when a node’s `next` pointer is `null`.
+![LinkedList](Images/LinkedList1.png)
 
 ---
-
-
-![LinkedList](Images/LinkedList1.png)
 
