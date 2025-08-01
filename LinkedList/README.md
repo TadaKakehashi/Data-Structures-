@@ -40,6 +40,16 @@ A **Singly Linked List** is a linear data structure where each node contains:
 
 - **Data**
 - A **pointer to the next node**
+```java
+   class Node{
+   int data;
+   Node next;
+   Node(int data){
+      this.data = data;
+      this.next = null;
+   }
+}
+```
 
 The list starts from a special node called the **head**, and ends when a node’s `next` pointer is `null`.
 ![LinkedList](Images/LinkedList1.png)
