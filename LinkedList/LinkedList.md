@@ -23,5 +23,28 @@ Unlike arrays, **linked lists are not stored in contiguous memory**.
 - When **random access is not required**  
   (Random access means directly accessing any element using an index, like in an array)
 ---
+# Node
+A **Node** is the building block of a linked list.  
+Each node stores:
 
-![image alt](https://github.com/TadaKakehashi/Data-Structures-/blob/26637454968bc4c71e1704eb9f3d8114d626e98d/LinkedList/Images/LinkedList1.png)
+- **Data**: The actual value or information
+- **Next**: A reference (pointer) to the **next node** in the list
+
+![Node](https://raw.githubusercontent.com/TadaKakehashi/Data-Structures-/653a8a05d0d25938ad1c5a887fcf519959025fe6/LinkedList/Images/Node.png)
+
+---
+
+# Singly Linked List
+
+A **Singly Linked List** is a linear data structure where each node contains:
+
+- **Data**
+- A **pointer to the next node**
+
+The list starts from a special node called the **head**, and ends when a node’s `next` pointer is `null`.
+
+---
+
+
+![Singly Linked List](https://raw.githubusercontent.com/TadaKakehashi/Data-Structures-/26637454968bc4c71e1704eb9f3d8114d626e98d/LinkedList/Images/LinkedList1.png)
+
