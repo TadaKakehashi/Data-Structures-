@@ -37,3 +37,19 @@ class Node{
 
 ---
 
+# Queue
+A Queue is a linear data structure that follows the FIFO (First In First Out) principle.
+The element inserted first will be removed first.
+Think of a line at a ticket counter: the person who comes first gets served first.
+
+## Ways to Implement a Queue
+You can implement a Queue in Java using:
+LinkedList – preferred for dynamic size and faster enqueue/dequeue
+ArrayList – simpler, but less efficient due to resizing/shifting
+
+## When to Use a Queue
+1. Task Scheduling – e.g., OS job queues
+2. Data Buffers – e.g., streaming data
+3. Breadth-First Search (BFS) in Graphs
+4. Message Queues – producer-consumer systems
+5. Print Spoolers or CPU scheduling
